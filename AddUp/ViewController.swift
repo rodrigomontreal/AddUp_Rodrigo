@@ -7,7 +7,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var plusButton: UIButton!
     @IBOutlet weak var plusSign: UILabel!
     @IBOutlet weak var taxesButton: UIButton!
-    @IBOutlet weak var viewHeightConstraint: NSLayoutConstraint!
+    //@IBOutlet weak var viewHeightConstraint: NSLayoutConstraint!
     @IBOutlet var deviceHeight: UIView!
     
     //# MARK: - Properties
@@ -19,12 +19,12 @@ class ViewController: UIViewController {
     var w: CGFloat! = 0.0
     
     //# MARK: - Instances
-    var quebecTaxesObj: QuebecTaxes!
+    var quebecTaxesObj: MichiganTaxes!
     
     //# MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.quebecTaxesObj = QuebecTaxes()
+        self.quebecTaxesObj = MichiganTaxes()
         self.labelNumberToDisplay.text = self.informationToDisplay(theSum: self.addUpArray())
         self.totalAmount = self.addUpArray()
         if self.plusButton.alpha == 0.2 {
@@ -119,6 +119,10 @@ class ViewController: UIViewController {
     
     //# MARK: - addingTotal
     private func addingTotal() {
+        if self.numberToDisplay == ""{
+            return
+        }
+        
         Singleton.sharedInstance.addToArray(theNumber: Float(self.numberToDisplay)!)
         self.totalAmount = self.addUpArray()
         self.numberToDisplay = ""
