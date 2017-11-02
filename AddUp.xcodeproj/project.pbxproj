@@ -62,6 +62,13 @@
 		9B3A1D5F1FA95C22001A0E61 /* Icon-172.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A1D401FA95C21001A0E61 /* Icon-172.png */; };
 		9B3A1D601FA95C22001A0E61 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A1D411FA95C21001A0E61 /* Icon-144.png */; };
 		9B3A1D611FA95C22001A0E61 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A1D421FA95C21001A0E61 /* Icon-100.png */; };
+		9B941B951FAB9E46005E240D /* apple$.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B941B931FAB9E44005E240D /* apple$.png */; };
+		9B941B961FAB9E46005E240D /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B941B941FAB9E44005E240D /* heart.png */; };
+		9B941B981FAB9E5B005E240D /* laucnchv4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B941B971FAB9E5A005E240D /* laucnchv4.png */; };
+		9B941B9A1FABA40B005E240D /* vegetables_int2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B941B991FABA40B005E240D /* vegetables_int2.png */; };
+		9B941B9D1FABAA96005E240D /* fleche<.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B941B9B1FABAA95005E240D /* fleche<.png */; };
+		9B941B9E1FABAA96005E240D /* fleche>.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B941B9C1FABAA96005E240D /* fleche>.png */; };
+		9B941BA01FABB1A9005E240D /* heartvegetable.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B941B9F1FABB1A8005E240D /* heartvegetable.png */; };
 		9D355DC81D70946100D4D755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4F1D6DDE39001490B9 /* Main.storyboard */; };
 		9D4DEC4C1D6DDE39001490B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */; };
 		9D4DEC4E1D6DDE39001490B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */; };
@@ -128,6 +135,13 @@
 		9B3A1D401FA95C21001A0E61 /* Icon-172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-172.png"; path = "Images/icone/Icon-172.png"; sourceTree = "<group>"; };
 		9B3A1D411FA95C21001A0E61 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-144.png"; path = "Images/icone/Icon-144.png"; sourceTree = "<group>"; };
 		9B3A1D421FA95C21001A0E61 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-100.png"; path = "Images/icone/Icon-100.png"; sourceTree = "<group>"; };
+		9B941B931FAB9E44005E240D /* apple$.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple$.png; path = Images/apple$.png; sourceTree = "<group>"; };
+		9B941B941FAB9E44005E240D /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart.png; path = Images/heart.png; sourceTree = "<group>"; };
+		9B941B971FAB9E5A005E240D /* laucnchv4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = laucnchv4.png; path = launchScreen/laucnchv4.png; sourceTree = "<group>"; };
+		9B941B991FABA40B005E240D /* vegetables_int2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vegetables_int2.png; path = Images/vegetables_int2.png; sourceTree = "<group>"; };
+		9B941B9B1FABAA95005E240D /* fleche<.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fleche<.png"; path = "Images/fleche<.png"; sourceTree = "<group>"; };
+		9B941B9C1FABAA96005E240D /* fleche>.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fleche>.png"; path = "Images/fleche>.png"; sourceTree = "<group>"; };
+		9B941B9F1FABB1A8005E240D /* heartvegetable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heartvegetable.png; path = Images/heartvegetable.png; sourceTree = "<group>"; };
 		9D4DEC481D6DDE38001490B9 /* AddUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -195,6 +209,13 @@
 		9DA1D6821D7621090084B01E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9B941B9F1FABB1A8005E240D /* heartvegetable.png */,
+				9B941B9B1FABAA95005E240D /* fleche<.png */,
+				9B941B9C1FABAA96005E240D /* fleche>.png */,
+				9B941B991FABA40B005E240D /* vegetables_int2.png */,
+				9B941B971FAB9E5A005E240D /* laucnchv4.png */,
+				9B941B931FAB9E44005E240D /* apple$.png */,
+				9B941B941FAB9E44005E240D /* heart.png */,
 				9B3A1D221FA9559F001A0E61 /* back_principal.png */,
 				9B3A1D1C1FA95216001A0E61 /* cucumbre.png */,
 				9B3A1D1E1FA95217001A0E61 /* pimentao.png */,
@@ -323,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B3A1D4B1FA95C22001A0E61 /* Icon-76.png in Resources */,
+				9B941B951FAB9E46005E240D /* apple$.png in Resources */,
 				9B3A1D161FA94AB1001A0E61 /* 0.png in Resources */,
 				9B3A1CED1FA93F8E001A0E61 /* logomejers.png in Resources */,
 				9B3A1D5B1FA95C22001A0E61 /* Icon-50.png in Resources */,
@@ -341,6 +363,7 @@
 				9B3A1D231FA9559F001A0E61 /* back_principal.png in Resources */,
 				9B3A1D201FA95217001A0E61 /* tomato.png in Resources */,
 				9B3A1D4D1FA95C22001A0E61 /* Icon-32.png in Resources */,
+				9B941B9D1FABAA96005E240D /* fleche<.png in Resources */,
 				9B3A1D4C1FA95C22001A0E61 /* Icon-512.png in Resources */,
 				9B3A1CFF1FA93FB0001A0E61 /* icone.png in Resources */,
 				9B3A1D441FA95C22001A0E61 /* Icon-1024.png in Resources */,
@@ -355,10 +378,13 @@
 				9B3A1D0D1FA949FF001A0E61 /* 22.png in Resources */,
 				9B3A1D091FA949FF001A0E61 /* 66.png in Resources */,
 				9D355DC81D70946100D4D755 /* Main.storyboard in Resources */,
+				9B941B9E1FABAA96005E240D /* fleche>.png in Resources */,
 				9B3A1D481FA95C22001A0E61 /* Icon-40.png in Resources */,
 				9B3A1D0F1FA949FF001A0E61 /* 77.png in Resources */,
+				9B941BA01FABB1A9005E240D /* heartvegetable.png in Resources */,
 				9B3A1D211FA95217001A0E61 /* pimentao.png in Resources */,
 				9B3A1CEA1FA93F8E001A0E61 /* launchv3.png in Resources */,
+				9B941B9A1FABA40B005E240D /* vegetables_int2.png in Resources */,
 				9B3A1D1F1FA95217001A0E61 /* cucumbre.png in Resources */,
 				9B3A1D0C1FA949FF001A0E61 /* 11.png in Resources */,
 				9B3A1D4A1FA95C22001A0E61 /* Icon-196.png in Resources */,
@@ -372,7 +398,9 @@
 				9B3A1D561FA95C22001A0E61 /* Icon-120.png in Resources */,
 				9B3A1D5E1FA95C22001A0E61 /* Icon-48.png in Resources */,
 				9B3A1D5F1FA95C22001A0E61 /* Icon-172.png in Resources */,
+				9B941B981FAB9E5B005E240D /* laucnchv4.png in Resources */,
 				9B3A1D601FA95C22001A0E61 /* Icon-144.png in Resources */,
+				9B941B961FAB9E46005E240D /* heart.png in Resources */,
 				9B3A1D461FA95C22001A0E61 /* Icon-80.png in Resources */,
 				9B3A1D551FA95C22001A0E61 /* Icon-256.png in Resources */,
 				9B3A1D111FA949FF001A0E61 /* 55.png in Resources */,
