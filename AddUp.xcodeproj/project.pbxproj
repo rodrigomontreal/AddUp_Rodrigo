@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4F4F1B1FACE47F001DECC1 /* shopping-cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4F4F1A1FACE47E001DECC1 /* shopping-cart.png */; };
 		9B3A1CE81FA93F8E001A0E61 /* logoaddup.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A1CD01FA93F89001A0E61 /* logoaddup.png */; };
 		9B3A1CEA1FA93F8E001A0E61 /* launchv3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A1CD21FA93F89001A0E61 /* launchv3.png */; };
 		9B3A1CED1FA93F8E001A0E61 /* logomejers.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A1CD51FA93F8A001A0E61 /* logomejers.png */; };
@@ -80,6 +81,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B4F4F1A1FACE47E001DECC1 /* shopping-cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shopping-cart.png"; path = "Images/shopping-cart.png"; sourceTree = "<group>"; };
 		9B3A1CD01FA93F89001A0E61 /* logoaddup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoaddup.png; path = Images/logoaddup.png; sourceTree = "<group>"; };
 		9B3A1CD21FA93F89001A0E61 /* launchv3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchv3.png; path = Images/launchv3.png; sourceTree = "<group>"; };
 		9B3A1CD51FA93F8A001A0E61 /* logomejers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logomejers.png; path = Images/logomejers.png; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 		9DA1D6821D7621090084B01E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5B4F4F1A1FACE47E001DECC1 /* shopping-cart.png */,
 				9B941B9F1FABB1A8005E240D /* heartvegetable.png */,
 				9B941B9B1FABAA95005E240D /* fleche<.png */,
 				9B941B9C1FABAA96005E240D /* fleche>.png */,
@@ -378,6 +381,7 @@
 				9B3A1D0D1FA949FF001A0E61 /* 22.png in Resources */,
 				9B3A1D091FA949FF001A0E61 /* 66.png in Resources */,
 				9D355DC81D70946100D4D755 /* Main.storyboard in Resources */,
+				5B4F4F1B1FACE47F001DECC1 /* shopping-cart.png in Resources */,
 				9B941B9E1FABAA96005E240D /* fleche>.png in Resources */,
 				9B3A1D481FA95C22001A0E61 /* Icon-40.png in Resources */,
 				9B3A1D0F1FA949FF001A0E61 /* 77.png in Resources */,
